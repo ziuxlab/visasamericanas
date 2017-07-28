@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Sitemap: https://www.visasamericanascolombia.com/sitemap_index.xml
+Disallow: /admin
+
+
+Sitemap: https://travelongocolombia.com/sitemap.xml
