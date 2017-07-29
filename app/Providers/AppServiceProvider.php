@@ -22,7 +22,7 @@
         {
             //
             Schema::defaultStringLength(191);
-            /*
+            //*
             View::share('Config', Config::find(1));
             View::share('menu', Page::whereMenu(1)->where('status',1)->orderBy('menu_order')->get());
             //*/

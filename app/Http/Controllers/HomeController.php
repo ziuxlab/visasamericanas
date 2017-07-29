@@ -33,7 +33,7 @@
          */
         public function index()
         {
-/*
+
             $config = Config::findorfail(1);
             if ($config->status == 1) {
                 
@@ -49,12 +49,8 @@
                 return view('app.home', compact('item', 'menu'));
                 
             }
-
-*/
-
-            return view('app.home', compact('item', 'menu'));
             
-            //return view('proximamente');
+            return view('proximamente');
             
             
         }
