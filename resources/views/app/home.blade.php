@@ -33,7 +33,6 @@
     @foreach($item->components()->where('status',1)->orderBy('order_component')->get() as $component)
         {!! $component->body !!}
     @endforeach
-
 @stop
 
 @section('scripts')

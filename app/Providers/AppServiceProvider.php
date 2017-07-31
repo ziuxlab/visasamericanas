@@ -20,7 +20,7 @@
          */
         public function boot()
         {
-            //
+            
             Schema::defaultStringLength(191);
             //*
             View::share('Config', Config::find(1));
