@@ -33,6 +33,9 @@
     <div class="js-slider" data-slider-autoplay="true" data-slider-arrows="true">
         <div>
             <img class="img-responsive"
+                 src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2017/05/primer.jpg" alt="">
+        </div><div>
+            <img class="img-responsive"
                  src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2017/04/Slide2.jpg" alt="">
         </div>
         <div>
@@ -75,6 +78,43 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-boxed">
+        <div class="row content flex-center">
+            <div class="col-sm-4 flex-center content content-full">
+                <div class="text-primary push-20-r">
+                    <i class="si fa-5x si-earphones-alt"></i>
+                </div>
+                <div class="">
+                    <h3 class="text-primary-dark">Linea gratuita nacional</h3>
+                    <h3 class="text-primary"><strong><a href="tel:018000413519">01 8000 413 519</a></strong></h3>
+                </div>
+            </div>
+            <div class="col-sm-4 flex-center content content-full">
+                <div class="text-primary push-20-r">
+                    <i class="fa fa-5x fa-whatsapp"></i>
+                </div>
+                <div class="">
+                    <h3 class="text-primary-dark">Linea gratuita nacional</h3>
+                    <h3 class="text-primary"><strong><a href="tel:3207085420">(+57) 320 708 54 20 </a><br><a href="tel:3508210080"> (+57) 350 821 00 80</a></strong></h3>
+                </div>
+            </div>
+            <div class="col-sm-4 flex-center content-mini content-mini-full">
+                <div class="text-primary push-20-r">
+                    <i class="fa fa-5x fa-mobile-phone"></i>
+                </div>
+                <div class="">
+                    <h3 class="text-primary-dark">Otras lineas celulares</h3>
+                    <h3 class="text-primary"><strong><a href="tel:3225683594"> (+57) 322 568 35 94</a></strong></h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="row content">
+            <div class="col-sm-12 border-b">
+                <h4 class="text-primary-dark h2">Reciba más información:</h4>
             </div>
         </div>
     </div>
