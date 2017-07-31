@@ -11,15 +11,13 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div id="page-container" class="sidebar-l  ">
+<div id="page-container">
     
-    <aside id="side-overlay">
-        @include('layouts.app.sidebar')
-    </aside>
+    
     <!-- Header -->
-    <header id="header-navbar" class="">
+    
         @include('layouts.app.cabecera')
-    </header>
+   
     <!-- END Header -->
     <!-- Main Container -->
     <main id="main-container">

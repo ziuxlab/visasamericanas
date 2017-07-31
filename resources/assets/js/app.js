@@ -8,6 +8,7 @@
 
 
 require('./bootstrap');
+require('./bootstrap');
 
 
 /**

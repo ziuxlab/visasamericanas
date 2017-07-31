@@ -1,5 +1,47 @@
 /********* css especifico para esta pagina web  *******/
 
+.h-52{
+    min-height: 52px;
+}
+
+.item-xs{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.menu{
+    height: 10px;
+}
+
+.menu a {
+    padding: 10px 15px;
+}
+
+.menu > li {
+    position: relative;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.dropdown-menu > li > a {
+    color: #fcfcfc;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #6d1600;
+    color: #541100;
+}
+
+.slick-slider .slick-prev, .slick-slider .slick-next {
+    opacity: .5;
+}
+
+
+
 
 
 /********* final css especifico  *******/
@@ -91,7 +133,7 @@
 }
 
 .v-center {
-    display: flex;
+   display:flex;
     align-items: center;
 }
 
@@ -113,7 +155,15 @@
 @media screen and (max-width: 576px) {
     /********* extra small **********/
     
+    .text-xs-center{
+        text-align: center;
+    }
     
+    .flex-xs-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
    
 }
 
