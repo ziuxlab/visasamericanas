@@ -5,12 +5,6 @@
 
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGVWXS8"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div id="page-container">
     
     
@@ -27,13 +21,13 @@
     <!-- END Main Container -->
     
     <!-- Footer -->
-    <footer id="page-footer" class="bg-secondary">
+    <footer id="page-footer" class="bg-primary">
         @include('layouts.app.footer')
     </footer>
     <!-- END Footer -->
 </div>
 
 <!-- Scripts -->
-@include('layouts.scripts')
+@include('layouts.app.scripts')
 </body>
 </html>

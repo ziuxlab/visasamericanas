@@ -19879,6 +19879,95 @@ div.tagsinput span.tag a:hover {
     opacity: .5;
 }
 
+.border-primary-dark-b{
+    border-bottom: 1px solid #142653;
+}
+
+.form-control.input-lg {
+    font-size: 16px;
+}
+
+.testimonio{
+    line-height: 1.3;
+}
+
+.testimonial-approved {
+    display: block;
+    position: absolute;
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    z-index: 99;
+    top: 80px;
+}
+
+.youtube-player {
+    position: relative;
+    padding-bottom: 56.23%;
+    /* Use 75% for 4:3 videos */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+}
+
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+.youtube-player img {
+    bottom: 0;
+    display: block;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+}
+
+.youtube-player img:hover {
+    -webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url("/img/play.png") no-repeat;
+    cursor: pointer;
+}
+
+.flex-center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stars{
+    color: #ffc926;
+    font-size: 12px;
+}
 
 
 
@@ -19894,6 +19983,10 @@ div.tagsinput span.tag a:hover {
 
 .btn-minw150{
     min-width: 150px;
+}
+
+.w-150{
+    width: 150px;
 }
 
 
@@ -19981,12 +20074,26 @@ div.tagsinput span.tag a:hover {
 
 @media (max-width: 992px) {
     /********* medium **********/
-   
+    .text-md-center{
+        text-align: center;
+    }
+    .flex-md-column{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
     /********* small **********/
+    .text-sm-center{
+        text-align: center;
+    }
+    .flex-sm-column{
+        flex-direction: column;
+    }
     
+    .flex-sm-row{
+        flex-direction: row;
+    }
   
     
 }

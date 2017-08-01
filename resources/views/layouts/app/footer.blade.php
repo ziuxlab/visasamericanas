@@ -1,82 +1,102 @@
 <div class="content-boxed">
-    <div class="col-sm-12 text-gray">
-        <div class="col-md-6 push-10-t text-center">
-            <img alt="logo travelongo colombia" class="logo img-responsive" src="{{asset('img/logo-naranja.svg')}}">
-            <p class="push-15-t text-justify">
-                Travel<span class="text-primary">on</span>go
-                @lang('general.footer')
-            </p>
-            <p>@lang('general.follow-us'):</p>
-            <div class="item-social">
-                @if($Config->facebook <> null)
-                    <a class="item-circle-small push-10-r item-circle bg-gray-lighter" href="{{$Config->facebook}}">
-                        <i class="fa fa-facebook text-gray-dark"></i>
-                    </a>
-                @endif
-                @if($Config->twitter <> null)
-                    <a class="item-circle-small push-10-r bg-gray-lighter" href="{{$Config->twitter}}">
-                        <i class="fa fa-twitter text-gray-dark"></i>
-                    </a>
-                @endif
-                @if($Config->google <> null)
-                    <a class="item-circle-small push-10-r bg-gray-lighter" href="{{$Config->google}}">
-                        <i class="fa fa-google-plus text-gray-dark"></i>
-                    </a>
-                @endif
-                @if($Config->youtube <> null)
-                    <a class="item-circle-small push-10-r bg-gray-lighter" href="{{$Config->youtube}}">
-                        <i class="fa fa-youtube text-gray-dark"></i>
-                    </a>
-                @endif
-                @if($Config->instagram <> null)
-                    <a class="item-circle-small  bg-gray-lighter" href="{{$Config->instagram}}">
-                        <i class="fa fa-instagram text-gray-dark"></i>
-                    </a>
-                @endif
-            </div>
-        </div>
-        <div class="col-md-2 col-sm-6 text-left  push-20-t">
-            <p class="h3 text-white "> @lang('general.about')</p>
-            <br>
-            <ul class="list-unstyled">
-                <li><a href="{{url(str_slug(trans('general.our-allies')))}}">@lang('general.our-allies')</a></li>
-                <li>
-                    <a href="{{url(str_slug(trans('general.sustainability-policy')))}}">@lang('general.sustainability-policy')</a>
+    <div class="row content ">
+        <div class=" push-20 col-md-6 flex-sm-center  ">
+            <ul class="fa-ul h4 flex-sm-center ">
+                <li class="push-10-t">
+                    <i class="fa fa-envelope fa-li"></i>
+                    <span class="text-white">Correo:</span>
+                    <a class="text-white font-w300"
+                       href="mailto:asesoria@visasamericanascolombia.com">asesoria@visasamericanascolombia.com</a>
                 </li>
-                <li><a href="{{url(str_slug(trans('general.join-us')))}}">@lang('general.join-us')</a></li>
-                <li><a href="{{url(str_slug(trans('general.terms')))}}">@lang('general.terms')</a></li>
-                <li><a href="" data-toggle="modal" data-target="#loginModal">@lang('cabecera.Login')</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#registerModal">@lang('cabecera.Register')</a></li>
+                <li class="push-10-t">
+                    <i class="si si-earphones-alt fa-li"></i>
+                    <span class="text-white">Linea gratuita nacional:</span>
+                    <a class="text-white font-w300" href="tel:018000413519">01 8000 413 519</a>
+                
+                </li>
+                <li class="push-10-t">
+                    <i class="fa fa-whatsapp fa-li"></i>
+                    <span class="text-white">Celular y whatsapp:</span>
+                    <a class="text-white font-w300" href="tel:3207085420">(+57) 320-708-5420 </a> | <a
+                            class="text-white font-w300" href="tel:3207085420">(+57) 320-708-5420 </a>
+                
+                </li>
+                <li class="push-10-t">
+                    <i class="fa fa-mobile-phone fa-li"></i>
+                    <span class="text-white">Otras lineas celular:</span>
+                    <a class="text-white font-w300" href="tel:3225683594"> (+57) 322-568-3594</a>
+                
+                </li>
+                <li class="push-10-t">
+                    <i class="fa fa-globe fa-li"></i>
+                    <a class="text-white" href="http://www.visasamericanaslatam.com/" target="_blank">www.visasamericanaslatam.com</a>
+                </li>
             </ul>
         </div>
-        <div class="col-md-4 col-sm-6 text-center push-20-t">
-            <h4 class="h3 text-white font-w600">@lang('general.Questions')</h4>
-            <span class="item push-20-t item-circle bg-gray-lighter">
-            <i class="fa fa-phone text-gray-dark"></i>
-        </span>
-            <p class="push-20-t h3">{{$Config->phone}}</p>
-            <p class="">
-                {{$Config->email}}
-                <br>
-                {{$Config->address}}
-            </p>
+        <div class=" push-20 col-md-6">
+            <div class="row ">
+                <div class="col-sm-6 flex-center push-20">
+                    <div class="fb-page"
+                         data-href="https://www.facebook.com/Visas-Americanas-Colombia-y-LATAM-552926838154975"
+                         data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                         data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/Visas-Americanas-Colombia-y-LATAM-552926838154975"
+                                    class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/Visas-Americanas-Colombia-y-LATAM-552926838154975">Visas
+                                                                                                                      Americanas
+                                                                                                                      Colombia
+                                                                                                                      y
+                                                                                                                      LATAM</a>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-sm-6 flex-center-column push-20">
+                    <ul class="nav-header ">
+                        <li class="item item-xs item-circle bg-white text-primary"><i class="fa fa-facebook"></i></li>
+                        <li class="item item-xs item-circle bg-white text-primary"><i class="fa fa-google-plus  "></i>
+                        </li>
+                        <li class="item item-xs item-circle bg-white text-primary"><i class="fa fa-twitter"></i></li>
+                        <li class="item item-xs item-circle bg-white text-primary"><i class="fa fa-youtube "></i></li>
+                        <li class="item item-xs item-circle bg-white text-primary"><i class="fa fa-instagram"></i></li>
+                    </ul>
+                    <div class="text-center push-20"><h4 class="h4 push-10-t ">Horarios de atención</h4>
+                        <div class="font-s12">Lunes a viernes: <b>8:00 am a 6:30 pm</b></div>
+                        <div class="font-s12">Sabados: <b>9:00 am a 1:00 pm</b></div>
+                    </div>
+                    <div class="g-person" data-layout="landscape"
+                         data-href="https://plus.google.com/110360642689901713072"></div>
+                
+                </div>
+            </div>
+        
         </div>
     </div>
-    
-    <div class="">
+    <div class="row content">
+        <div class="col-sm-12 ">
+            <p class="font-s12 text-white-op">Aviso legal. La información suministrada en este sitio web es de carácter informativo y está basada en la
+               experiencia y conocimientos del autor. El uso y solicitud del servicio de asesoría es totalmente
+               voluntario ya que los solicitantes de visa pueden realizar el proceso de manera individual. Esta página
+               web no proporciona información legal y no se encuentra vinculada con la Embajada Americana ni con el
+               Gobierno de Estados Unidos. Visas Americanas Colombia no se hace responsable por el contenido publicado o
+               las opiniones de los clientes.</p>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-sm-12 border-white-op-t push-15-t content-mini content-mini-full ">
        
             <span class="text-white">
-                Copyright © 2017 Travelongo Colombia All Rights Reserved.
+                Copyright © 2017 VisasamericanasColombia All Rights Reserved.
             </span>
             
             <span class="text-white pull-right">
-                Made with <i class="fa fa-heart text-city"></i> in Colombia by <a
-                        href="http://ziuxlab.com">Ziuxlab.com</a>
+                Made with <i class="fa fa-heart text-city"></i> in Colombia by <a class="text-white"
+                                                                                  href="http://ziuxlab.com">Ziuxlab.com</a>
             </span>
         
         
         </div>
     </div>
 </div>
+
+
 

@@ -9,7 +9,7 @@
 <meta name="robots" content="index, follow">
 <meta name="keywords" content="@yield('keywords')">
 <link rel="canonical" href="{{url()->current()}}">
-<title>@yield('title') | Travelongo</title>
+<title>@yield('title') | Visas Americanas Colombia</title>
 <meta name="description" content="@yield('description')">
 <!-- Real Favicon Generator -->
 
@@ -25,13 +25,6 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
-<!-- Google Tag Manager
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                                                      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MGVWXS8');</script>
-<!-- End Google Tag Manager -->
 
 <!-- Critical CSS -->
 @yield('critical-css')
@@ -40,7 +33,6 @@
 <script>
     !function(a){"use strict";var b=function(b,c,d){var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",g.parentNode.insertBefore(f,c?g:g.nextSibling);var j=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){j(a)})};return f.onloadcssdefined=j,j(function(){f.media=d||"all"}),f};"undefined"!=typeof module?module.exports=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
     loadCSS('{{ asset(mix('/css/app-home.css')) }}');
-    loadCSS('{{asset('js/plugins/sweetalert2/sweetalert2.min.css')}}');
 </script>
 
 @yield('style')
