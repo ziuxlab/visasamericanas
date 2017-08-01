@@ -33,19 +33,19 @@
     <div class="js-slider" data-slider-autoplay="true" data-slider-arrows="true">
         <div>
             <img class="img-responsive"
-                 src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2017/05/primer.jpg" alt="">
+                 src="{{url('img/slider-1.jpg')}}" alt="">
         </div>
         <div>
             <img class="img-responsive"
-                 src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2017/04/Slide2.jpg" alt="">
+                 src="{{url('img/slider-2.jpg')}}" alt="">
         </div>
         <div>
             <img class="img-responsive"
-                 src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2017/05/Slide3_2.jpg" alt="">
+                 src="{{url('img/slider-3.jpg')}}" alt="">
         </div>
         <div>
             <img class="img-responsive"
-                 src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2017/04/Slide4.jpg" alt="">
+                 src="{{url('img/slider-4.jpg')}}" alt="">
         </div>
     </div>
     <div class="bg-primary">
