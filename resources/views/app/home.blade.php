@@ -160,7 +160,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <button class="btn btn-lg btn-primary">ENVIAR MENSAJE</button>
+                    <button class="btn btn-primary">ENVIAR MENSAJE</button>
                 </div>
             </div>
         </div>
