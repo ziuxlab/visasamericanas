@@ -1,6 +1,6 @@
 
 const { mix } = require('laravel-mix');
-var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+
 
 
 /*
@@ -29,23 +29,6 @@ mix.combine([
     'public/css/app-home.css');
 mix.browserSync('localhost:8000');
 
-
-mix.webpackConfig({
-    plugins: [
-        new SWPrecacheWebpackPlugin(
-            {
-                cacheId: 'myapp',
-                filename: 'sw.js',
-                maximumFileSizeToCacheInBytes: 4194304,
-                minify: false,
-                runtimeCaching: [{
-                    handler: 'cacheFirst',
-                    urlPattern: /fonts\/.*$/,
-                }],
-            }
-        ),
-    ]
-});
 
 
 

@@ -1,7 +1,7 @@
 <div class="content-boxed">
     <div class="row content ">
-        <div class=" push-20 col-md-6 flex-sm-center  ">
-            <ul class="fa-ul h4 flex-sm-center ">
+        <div class=" push-20 col-md-6   ">
+            <ul class="fa-ul h4 h5-xs  ">
                 <li class="push-10-t">
                     <i class="fa fa-envelope fa-li"></i>
                     <span class="text-white">Correo:</span>
@@ -82,16 +82,16 @@
                las opiniones de los clientes.</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-12 border-white-op-t push-15-t content-mini content-mini-full ">
+    <div class="">
+        <div class="col-sm-12 border-white-op-t  content-mini content-mini-full flex-between flex-md-center flex-md-column ">
        
-            <span class="text-white">
-                Copyright © 2017 VisasamericanasColombia All Rights Reserved.
+            <span class=" text-white push-15-t text-xs-center">
+                Copyright © 2017 Visasamericanas Colombia All Rights Reserved.
             </span>
             
-            <span class="text-white pull-right">
-                Made with <i class="fa fa-heart text-city"></i> in Colombia by <a class="text-white"
-                                                                                  href="http://ziuxlab.com">Ziuxlab.com</a>
+            <span class="text-white push-15-t">
+                Hecho con <i class="fa fa-heart text-city"></i> en Colombia por <a class="text-white"
+                                                                                  href="https://ziuxlab.com">Ziuxlab.com</a>
             </span>
         </div>
     </div>

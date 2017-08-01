@@ -28,7 +28,7 @@ gulp.task('default', function (cb) {
     });
 });
 
-gulp.task('generate-service-worker', function(callback) {
+gulp.task('sw', function(callback) {
     var swPrecache = require('sw-precache');
     var rootDir = 'public';
     
