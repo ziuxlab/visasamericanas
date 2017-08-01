@@ -92,8 +92,6 @@
                 Made with <i class="fa fa-heart text-city"></i> in Colombia by <a class="text-white"
                                                                                   href="http://ziuxlab.com">Ziuxlab.com</a>
             </span>
-        
-        
         </div>
     </div>
 </div>
