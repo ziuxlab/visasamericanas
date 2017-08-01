@@ -89,7 +89,7 @@
     <div class="content-boxed">
         <div class="row content flex-center  flex-sm-row flex-xs-column">
             <div class="col-sm-4 push-20 ">
-                <div class="row  flex-md-center flex-md-column flex-sm-row">
+                <div class="row   flex-md-column flex-sm-row">
                     <div class="text-primary text-center push-5 push-5-t col-md-3 col-sm-12">
                         <i class="si fa-xs-3x fa-4x si-earphones-alt"></i>
                     </div>
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="col-sm-4 push-20   ">
-                <div class="row flex-md-center flex-md-column flex-sm-row">
+                <div class="row  flex-md-column flex-sm-row">
                     <div class="text-primary text-center  push-5 push-5-t col-md-3 col-sm-12 ">
                         <i class="fa fa-xs-3x fa-5x fa-whatsapp"></i>
                     </div>
@@ -112,7 +112,7 @@
                 </div>
             </div>
             <div class="col-sm-4  push-20 ">
-                <div class="row  flex-md-center flex-md-column flex-sm-row">
+                <div class="row   flex-md-column flex-sm-row">
                     <div class="text-primary text-center push-5 push-5-t col-md-3 col-sm-12 ">
                         <i class="fa fa-xs-3x fa-5x fa-mobile-phone"></i>
                     </div>
