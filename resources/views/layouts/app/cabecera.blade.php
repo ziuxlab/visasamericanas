@@ -26,7 +26,7 @@
                 <div class="col-sm-4 col-lg-3 col-xs-8">
                     <a class="" href="{{ url('/') }}">
                         <img class="img-responsive" alt="logo travelongo"
-                             src="https://d1sipoklioe7pi.cloudfront.net/wp-content/uploads/2015/11/logo.png">
+                             src="{{url('img/logo.png')}}">
                     </a>
                 </div>
                 <ul class="menu v-center push-15-t">

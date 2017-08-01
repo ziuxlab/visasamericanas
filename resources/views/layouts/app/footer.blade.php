@@ -63,8 +63,9 @@
                         <div class="font-s12">Lunes a viernes: <b>8:00 am a 6:30 pm</b></div>
                         <div class="font-s12">Sabados: <b>9:00 am a 1:00 pm</b></div>
                     </div>
+                    <!--
                     <div class="g-person" data-layout="landscape"
-                         data-href="https://plus.google.com/110360642689901713072"></div>
+                         data-href="https://plus.google.com/110360642689901713072"></div>-->
                 
                 </div>
             </div>
